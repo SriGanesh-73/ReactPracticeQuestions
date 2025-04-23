@@ -1,5 +1,102 @@
-/* RestaurantBookingUI.css */
-nav { display: flex; justify-content: space-between; background: #333; color: white; padding: 1rem; }
-nav a, nav button { margin: 0 0.5rem; color: white; background: none; border: none; cursor: pointer; }
-.hero { background: url('banner.jpg'); height: 200px; color: white; display: flex; align-items: center; justify-content: center; font-size: 2rem; }
-.card { border: 1px solid #ccc; padding: 1rem; margin: 1rem; }
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fafafa;
+}
+
+nav {
+  background-color: #111827;
+  padding: 16px 32px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  margin-left: 16px;
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #cbd5e1;
+}
+
+nav button {
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+nav button:hover {
+  background-color: white;
+  color: #111827;
+}
+
+section {
+  padding: 32px;
+}
+
+.bg-cover {
+  background-size: cover;
+  background-position: center;
+  height: 384px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 36px;
+  font-weight: bold;
+  color: white;
+}
+
+.grid {
+  display: grid;
+  gap: 16px;
+}
+
+.grid-cols-1 {
+  grid-template-columns: 1fr;
+}
+
+.md\:grid-cols-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+form input {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+form input:focus {
+  outline: none;
+  border-color: #7c3aed;
+  box-shadow: 0 0 0 2px rgba(124, 58, 237, 0.2);
+}
+
+h2 {
+  font-size: 24px;
+  color: #1f2937;
+  margin-bottom: 16px;
+}
+
+footer {
+  background-color: #1f2937;
+  color: white;
+  padding: 24px;
+  text-align: center;
+}
+
+footer iframe {
+  border: none;
+  border-radius: 8px;
+  margin-top: 16px;
+}
