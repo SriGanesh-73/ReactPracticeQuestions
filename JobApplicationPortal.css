@@ -1,0 +1,18 @@
+/* JobApplicationPortal.css */
+body {
+  font-family: 'Segoe UI', sans-serif;
+}
+nav {
+  background-color: #1a202c;
+  color: white;
+  padding: 1rem;
+}
+section {
+  margin: 1rem;
+}
+button {
+  background-color: #3182ce;
+  color: white;
+  padding: 0.5rem;
+  border: none;
+}

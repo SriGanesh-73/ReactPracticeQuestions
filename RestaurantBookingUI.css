@@ -1,0 +1,17 @@
+/* RestaurantBookingUI.css */
+body {
+  font-family: Arial, sans-serif;
+}
+nav {
+  background-color: #000;
+  color: white;
+  padding: 1rem;
+}
+section {
+  padding: 1rem;
+}
+footer {
+  background-color: #111;
+  color: white;
+  padding: 1rem;
+}
